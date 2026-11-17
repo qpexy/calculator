@@ -14,3 +14,6 @@ def test_multiply():
 
 def test_divide_uneven():
     assert divide(5, 2) ==2.5
+
+def test_circleArea():
+    assert CircleArea(-4) == "Error"
